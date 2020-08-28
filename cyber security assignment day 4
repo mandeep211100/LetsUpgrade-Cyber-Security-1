@@ -1,0 +1,70 @@
+# LetsUpgrade-Cyber-Security assignment day 4
+question 1:
+Find Out the mail servers of the following Domain.
+----> IBM.com  ----> Wipro.cpm
+mail servers: 
+       step 1:open command prompt and type nslookup
+       step 2:press enter
+       step 3:type IBM.com and Wipro.com 
+       Result:
+
+> www.ibm.com
+Server:  dns.google
+Address:  8.8.8.8
+
+Non-authoritative answer:
+Name:    e2874.dscx.akamaiedge.net
+Addresses:  2600:140f:2c00:186::b3a
+          2600:140f:2c00:18c::b3a
+          104.114.98.155
+Aliases:  www.ibm.com
+          www.ibm.com.cs186.net
+          outer-ccdn-dual.ibmcom.edgekey.net
+          outer-ccdn-dual.ibmcom.edgekey.net.globalredir.akadns.net
+
+> www.wipro.com
+Server:  dns.google
+Address:  8.8.8.8
+
+Non-authoritative answer:
+Name:    d361nqn33s63ex.cloudfront.net
+Addresses:  2600:9000:213a:3c00:13:4f33:b240:93a1
+          2600:9000:213a:3400:13:4f33:b240:93a1
+          2600:9000:213a:f600:13:4f33:b240:93a1
+          2600:9000:213a:2400:13:4f33:b240:93a1
+          2600:9000:213a:200:13:4f33:b240:93a1
+          2600:9000:213a:f000:13:4f33:b240:93a1
+          2600:9000:213a:4200:13:4f33:b240:93a1
+          2600:9000:213a:e800:13:4f33:b240:93a1
+          99.86.42.71
+          99.86.42.4
+          99.86.42.32
+          99.86.42.86
+Aliases:  www.wipro.com
+
+>
+
+
+question 2:
+Find the locations, where these mail servers are hosted.
+IBM.com ----->  USA
+Wipro.com ----> India
+
+question 3:
+Scan and find out port numbers open 203.163.246.23
+All 1000 ports of the above IP are Filtered
+
+question 4:
+Install nessus in a VM and scan your laptop/desktop for CVE.
+
+Scanned the laptop and find severity of all applications in my laptop like Critical,high, medium, Info
+
+
+
+
+
+
+
+
+
+
